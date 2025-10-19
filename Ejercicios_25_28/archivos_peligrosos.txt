@@ -1,0 +1,2 @@
+-------rwx 1 saskia saskia 0 oct 14 22:19 /home/saskia/prueba_peligro.txt
+-------rwx 1 saskia saskia 42 oct 14 22:01 /home/saskia/Documentos/prueba_permisos.txt
