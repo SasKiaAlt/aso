@@ -102,6 +102,7 @@ foreach ($carpeta in $departamentos) {
     Write-Host "Mostramos permisos de grupo después de los cambios:"
     $acl.Access |Format-Table
 }
-
+$recursoComp = "Empresa"
+New-SmbShare -Name $recursoComp -Path $carpetaRaiz -ChangeAccess "Domain Users"
 
 
